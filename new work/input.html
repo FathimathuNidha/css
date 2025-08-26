@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>.circle-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* adjust spacing from top */
+}
+
+.circle-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white; /* optional */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* optional */
+}
+.name-text {
+  text-align: center;
+  margin-top: 10px; /* space below image */
+  margin-bottom: 10px; /* space above grid */
+}
+
+.name-text .name {
+  color: #4B0082; /* Dark violet */
+  font-size: 20px;
+  font-weight: 600; /* Slightly bold */
+}
+
+.name-text .subtitle {
+  color: white;
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto auto;
+            gap: 10PX;
+            grid-template-areas: "box1 box2"
+                "box3 box4"
+                "box5  box6";
+            padding: 20px;
+            margin-top: 10x;
+            margin-left: 50PX;
+            margin-right: 50PX;
+            padding-top: 0;
+        }
+
+        .box1 {
+            grid-area: box1;
+            background-color: white;
+            color: BLACK;
+            text-align: center;
+            padding: 20px;
+
+
+        }
+
+        .box2 {
+            grid-area: box2;
+            background-color: rgb(114, 72, 154);
+            color: white;
+            text-align: center;
+            padding: 20px;
+
+
+        }
+
+        .box3 {
+            grid-area: box3;
+            background-color: rgb(114, 72, 154);
+            color: white;
+            text-align: center;
+            padding: 20px;
+
+
+        }
+
+        .box4 {
+            grid-area: box4;
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 20px;
+
+
+        }
+
+        .box5 {
+            grid-area: box5;
+            background-color: white;
+            color: BLACK;
+            text-align: center;
+            padding: 20px;
+
+
+        }
+
+
+        .box6 {
+            grid-area: box6;
+            background-color: rgb(114, 72, 154);
+            color: white;
+            text-align: center;
+            padding: 20px;
+
+
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            position: static;
+            font-family: Arial, sans-serif;
+        }
+
+        .footer-icons {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 15px;
+            font-size: 18px;
+            color: #555;
+            cursor: pointer;
+        }
+
+        .footer-icons:hover {
+            color: #0077b5;
+        }
+    </style>
+
+</head>
+
+<body
+   
+    style="background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMThiYXRjaDktYXVtLTA2XzEuanBn.jpg); background-size: cover;">
+<div class="circle-container">
+  <img src="nidha.jpg" alt="Circle Image" class="circle-image">
+</div>
+<div class="name-text">
+  <div class="name">Fathimathu Nidha KK</div>
+  <div class="subtitle">MERN STACK DEVELOPER</div>
+</div>
+
+    <div class="grid-container">
+        <div class="box1"> MERN Stack Developer<BR>
+
+            Skilled full-stack developer specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js).
+            Experienced in building dynamic, responsive web applications with a focus on clean, efficient code and
+            seamless user experiences. Proficient in both front-end and back-end development, RESTful APIs, and database
+            management. Passionate about problem-solving, learning new technologies, and delivering scalable software
+            solutions.</div>
+       <div class="box2">
+  <h3>Skills</h3>
+
+  <p>HTML</p>
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <div style="background: #fff; height: 10px; width: 100%; border-radius: 5px;">
+      <div style="width: 90%; background: #4B0082; height: 10px; border-radius: 5px;"></div>
+    </div>
+    <span>90%</span>
+  </div>
+
+  <p>CSS</p>
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <div style="background: #fff; height: 10px; width: 100%; border-radius: 5px;">
+      <div style="width: 80%; background: #4B0082; height: 10px; border-radius: 5px;"></div>
+    </div>
+    <span>80%</span>
+  </div>
+</div>
+
+
+        <div class="box3"> EDUCATION
+            <BR>MAMBARAM HSS,MAMBARAM 2020-2022<BR>
+            NAM COLLEGE,KALLIKANDY 2022-2025
+        </div>
+        <div class="box4">
+            <ul>LANGUAGES</ul>
+            <LI>ENGLISH</LI>
+            <LI>MALAYALAM</LI>
+            <LI>HINDI</LI>
+        </div>
+
+        <div class="box5">
+            CONTACT<br>
+            NIDHAS,KAYALODE<BR>
+            +91 7034885540<BR>
+            nidhaahashraf@gmail.com
+        </div>
+        <div class="box6">
+            Experiences<br>
+            CS Faculty<br>
+            Sprint study center 2024-present<br>
+            Assisted faculty in course delivery, grading, and classroom support for HSS subjects.
+
+        </div>
+    </div>
+
+    <div class="footer-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fas fa-envelope"></i>
+        <i class="fab fa-github"></i>
+        <i class="fab fa-twitter"></i>
+    </div>
+
+ 
+<div class="circle">
+
+</div>
+
+</body>
+
+</html>

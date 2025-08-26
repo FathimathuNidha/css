@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[required] {
+            border: 2px solid red;
+        }
+
+        input[type="email"] {
+            background-color: aquamarine;
+        }
+
+        div[class~="highlight"] {
+            background-color: yellow;
+        }
+
+        p[lang|="en"] {
+            /*exact or starts with*/
+            color: blue;
+        }
+
+        a[href^="https"] {
+            color: violet;
+        }
+
+        img[src$=".png"] {
+            border: 2px dashed purple;
+            width: 120px;
+
+
+        }
+        a[href*="about"]{
+            font-weight: bold;
+            text-decoration: dotted;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body><!--1-->
+    <h2>Css Attribute selectors</h2>
+    <input type="text" placeholder="Your name" required><!--2-->
+    <input type="email" placeholder="Your email"><BR><BR>
+    <!--3-->
+    <div class="box highlight">Highlighted</div>
+    <!--4-->
+    <p lang="en">English paragaraph</p>
+    <p lang="en-us">english</p>
+
+    <a href="https://example.com/login">log in</a><br>
+    <img src="ed73d36eee1e3966991b90417e199148.png" alt=""><BR><BR>
+    <a href="https://example.com/about/loii">about</a>
+    </body>
+
+</html>
